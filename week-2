@@ -1,0 +1,251 @@
+<html>
+  <head>
+    <title>practical-week two</title>
+   <style>
+   .lest{
+         padding-left:50px;
+     }
+    .para{
+        padding-left:50px;
+	font-size:14;
+  }
+    .pic {
+          text-align:center;
+}
+    .pic2{
+	  padding-left:450px;
+}
+    .p2{
+	 padding-left:50px;
+	 font-size:14;	
+}
+     .p3{
+	 padding-left:50px;
+	 font-size:25px;
+}
+     .p4{
+        padding-left:50px;
+	font-size:14;
+}
+      .p5 {
+        padding-left:50px;  
+	font-size:14;
+}
+      .tab{
+	padding-left:70px; 
+}
+	.p6{
+	padding-left:50px;
+	font-size:14;
+}
+	.p7{
+	padding-left:50px;
+	font-size:14;
+}
+	.tab1{
+ 	padding-left:50px;
+	font-size:14;
+}
+	.p8{
+	padding-left:50px;
+	font-size:18px;
+}
+   </style>
+  </head>
+ <body>
+   <header>	
+     <div class="lest">
+      <h1> Version Control</h1> 			
+      </div>
+   </header>
+	<div class="para">
+		<p>GitHub is a code hosting platform for version control and collaboration. It lets you and others work
+		together on projects from anywhere. GitHub is a form of Distributed Version Control Systems (DVCS),
+		in a DVCS (such as Git, Mercurial, Bazaar or Darcs), clients don’t just check out the latest snapshot of
+		the files; rather, they fully mirror the repository, including its full history. Thus, if any server dies, and
+		these systems were collaborating via that server, any of the client repositories can be copied back up
+		to the server to restore it. Every clone is really a full backup of all the data.</p>
+	</div>
+	<div class="pic">
+		<img src="Screenshot (41).png" height="350" width="350">
+	</div>
+	<div class="p2">
+        <p>To complete this tutorial, you need a <a href="https://github.com/"> GitHub </a> account and Internet access. You don’t need to know
+  	how to code, use the command line, or install Git (the version control software GitHub is built on).</p>
+	</div>
+	<div class="p3">
+	  <p>  Step One – Create a Repository:  </p>
+	</div>
+	<div class="p4">
+	  <p> A repository is usually used to organize a single project. Repositories can contain folders and files,
+	      images, videos, spreadsheets, and data sets – anything your project needs. We recommend including
+	      a README, or a file with information about your project. GitHub makes it easy to add one at the same
+	      time you create your new repository. It also offers other common options such as a license file. </p>
+	</div>
+	<div class="p5">
+	  <p> Your “hello-world” repository can be a place where you store ideas, resources, or even share and
+	      discuss things with others. </p>
+	</div>
+	<div class="tab">
+		<ol>
+			<li> In the upper right corner, next to your avatar or identicon, click and then select “New
+			     repository”.</li>
+			<li>Name your repository “hello-world”.</li>
+			<li> Write a short description </li>
+			<li>Select Initialize this repository with a README.</li>
+			<div class="pic">
+		<img src="Screenshot (46).png" height="550" width="550">
+			</div>
+			<li> Click “Create repository”.</li>
+		</ol>
+	</div>
+	<div class="p3">
+	  <p> Step Two – Create a Branch: </p>
+	</div>
+	<div class="p7">
+	 <p> <br>Branching is the way to work on different versions of a repository at one time.</br>
+		<br>By default, your repository has one branch named “main” which is considered to be the definitive
+		branch. We use branches to experiment and make edits before committing them to “main”.</br>
+		<br>When you create a branch off the “main” branch, you’re making a copy, or snapshot, of “main” as it
+		was at that point in time. If someone else made changes to the “main” branch while you were
+		working on your branch, you could pull in those updates.</br>
+		<br>This diagram shows:</br></p>
+	</div>
+	<div class="tab1">
+		<ul>
+			<li> The main branch </li>
+			<li> A new branch called feature (because we’re doing ‘feature work’ on this branch) </li>
+			<li> The journey that feature takes before it’s merged into main </li>
+		</ul>
+	</div>
+	<div class="pic">
+		<img src="Screenshot (43).png" height="350" width="350">
+			</div>
+	<div class="p2">
+	  <p> Have you ever saved different versions of a file? Something like: </p>
+	</div>
+	<div class="tab1">
+		<ul>
+			<li> story.txt </li>
+			<li> story-joe-edit.txt </li>
+			<li> story-joe-edit-reviewed.txt </li>
+		</ul>
+		<p>Branches accomplish similar goals in GitHub repositories.</p>
+		<p><bold>To Create a New Branch:</bold></p>
+		<ul>
+			<li> Go to your new repository “hello-world” </li>
+			<li> Click the drop down at the top of the file list that says “branch: main”.</li>
+			<li>Type a branch name, “readme-edits”, into the new branch text box.</li>
+			<li> Select the Create branch box.</li>
+		</ul>
+	</div>
+	<div class="pic">
+		<img src="Screenshot (47).png" height="550" width="550">
+	</div>
+	<div class="p2">
+		<p>Now you have two branches, “main” and “readme-edits”. They look exactly the same, but not for long!
+		    Next, we’ll add our changes to the new branch.</p>
+	</div>	
+	<div class="p3"> 
+		<p>Step Three – Make and Commit Changes:</p> 
+	</div>
+	<div class="p2">
+		<p>Bravo! Now, you’re on the code view for your “readme-edits” branch, which is a copy of “main”. Let’s
+		   make some edits</p>
+		<p>On GitHub, saved changes are called commits. Each commit has an associated commit message, which
+		   is a description explaining why a particular change was made. Commit messages capture the history
+		   of your changes, so other contributors can understand what you’ve done and why</p>
+	</div>
+	<div class="p8"> 
+		<p>Make and Commit Changes:</p>
+	</div>
+	<div class="tab1">
+		<ol>
+			<li>Click the “README.md” file.</li>
+			<li>Click the pencil icon in the upper right corner of the file view to edit</li>
+			<li>In the editor, write a bit about yourself.</li>
+			<li>Write a commit message that describes your changes</li>
+			<li>Click <b> Commit changes </b> button</li>
+		</ol>
+	</div>
+	<div class="pic">
+		<img src="Screenshot (43).png" height="550" width="550">
+	</div>
+
+	<div class="pic2">
+		<img src="Screenshot (47).png" height="250" width="550">
+	</div>
+	<div class="p2">
+		<p>These changes will be made to just the README file on your “readme-edits” branch, so now this
+		   branch contains content that’s different from “main”.</p>
+	</div>
+	<div class="p3"> 
+		<p>Step Four – Open a Pull Request</p> 
+	</div>
+	<div class="p2">
+		<p><br> Nice edits! Now that you have changes in a branch off of “main”, you can open a pull request.</br>
+			Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re
+			proposing your changes and requesting that someone review and pull in your contribution and
+			merge them into their branch. Pull requests show diffs, or differences, of the content from both
+			branches. The changes, additions, and subtractions are shown in green and red.</p>
+		<p> <br> As soon as you make a commit, you can open a pull request and start a discussion, even before
+			the code is finished.</br>
+		    <br> By using GitHub’s @mention system in your pull request message, you can ask for feedback from
+			 specific people or teams, whether they’re down the hall or 10 time zones away. </br>
+		    <br> You can even open pull requests in your own repository and merge them yourself. It’s a great way
+			 to learn the GitHub flow before working on larger projects. </br></p>
+	</div>	
+	<div class="p8">
+		<p> Open a Pull Request for Changes to the README </p>
+	</div>
+	<div class="tab">
+		<ol>
+			 <li> Click the “Pull Request” tab, then from the Pull Request page, click the green “New pullrequest” button </li> 
+			<br> <img src="Screenshot (47).png" height="250" width="550"> </br>
+			<<li> In the <b> Example Comparisons </b> box, select the branch you made, “readme-edits”,
+				  tocompare with “main” (the original). </li> 
+			<br> <img src="Screenshot (46).png" height="250" width="550"> </br>
+			<br> <li> Look over your changes in the diffs on the Compare page, make sure they’re what you
+			     want to submit. </li> </br>
+		<div class="pic2">
+			<br> <img src="Screenshot (43).png" height="250" width="350"> </br>	
+		</div>
+			<br> <li> When you’re satisfied that these are the changes you want to submit, click the big green
+			    <b> Create Pull Request </b> button. </li> </br>
+			<br> <img src="Screenshot (46).png" height="250" width="550"> </br>
+			<br> <li> Give your pull request a title and write a brief description of your changes.</li> </br>
+			<br> <img src="Screenshot (47).png" height="250" width="550"> </br>
+		</ol>
+	</div>
+	<div class="p2">
+		<p> When you’re done with your message, click <b>Create pull request!</b> </p>
+	</div>
+	<div class="p3"> 
+		<p> Step Five – Merge Your Pull Request </p> 
+	</div>
+	<div class="p2">
+		<p> In this final step, it’s time to bring your changes together – merging your readme-edits branch into the
+		    “main” branch. </p>
+	</div>
+	<div class="tab">
+		<ol>
+			<li> Click the green <b> Merge pull request </b> button to merge the changes into main. </li>
+			<li> Click <b> Confirm merge.</b> </li>
+			<li>Go ahead and delete the branch, since its changes have been incorporated, with the <b> Delete
+			    branch </b> button in the purple box. </li>
+			<br> <img src="Screenshot (43).png" height="250" width="350"> </br>
+		</ol>
+	</div>
+	<div class="p2">
+		<p> Here’s what you accomplished in this practical: </p>
+	</div>	
+	<div class="tab">
+		<ul>
+			<li> Created an open-source repository </li>
+			<li> Started and managed a new branch </li>
+			<li> Changed a file and committed those changes to GitHub </li>
+			<li> Opened and merged a Pull Request </li>
+		</ul>
+	</div>
+ </body>
+</html>
